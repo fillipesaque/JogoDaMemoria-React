@@ -1,0 +1,20 @@
+.card {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3498db;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card.flipped {
+    background-color: #fff;
+    color: #3498db;
+}
+.card:hover {
+    background-color: #2980b9;
+}

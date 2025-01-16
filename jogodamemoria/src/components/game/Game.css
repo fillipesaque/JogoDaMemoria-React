@@ -1,0 +1,22 @@
+.game {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn {
+    width: 350px;
+    background-color: #3498db;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn:hover {
+    background-color: #2980b9;
+}
